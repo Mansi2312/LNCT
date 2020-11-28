@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "271832093845",
+    "firebase_url": "https://lnct-connect.firebaseio.com",
+    "project_id": "lnct-connect",
+    "storage_bucket": "lnct-connect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271832093845:android:7d40a325e0b6e2fd68379c",
+        "android_client_info": {
+          "package_name": "com.example.lnct_connect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271832093845-b7nhp0hsuc27g9kcn2og08g4anugb49u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXx1kqm64AiEWQdwDZ_1eGqnjXGTUZiZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271832093845-b7nhp0hsuc27g9kcn2og08g4anugb49u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

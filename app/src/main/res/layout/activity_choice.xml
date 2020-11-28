@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgrnd"
+    tools:context=".Login.Choice">
+
+    <ImageView
+        android:layout_width="127dp"
+        android:layout_height="121dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/profilee" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <RadioButton
+
+            android:id="@+id/faculty"
+            android:layout_width="243dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="monospace"
+            android:padding="10dp"
+            android:text="FACULTY"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/student"
+            android:layout_width="243dp"
+            android:layout_height="76dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="monospace"
+            android:padding="10dp"
+            android:text="STUDENT"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/admin"
+            android:layout_width="243dp"
+            android:layout_height="76dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="monospace"
+            android:padding="10dp"
+            android:text="ADMIN"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+
+
+    </RadioGroup>
+
+
+
+</LinearLayout>

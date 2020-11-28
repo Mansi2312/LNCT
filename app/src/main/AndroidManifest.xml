@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lnct_connect">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icn"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/roundlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Faculty.Document_Choices" />
+        <activity android:name=".Admin.Delete_Alumni" />
+        <activity android:name=".Admin.Edit_Alumni" />
+        <activity android:name=".Admin.Add_Variant" />
+        <activity android:name=".Admin.Add" />
+        <activity android:name=".Admin.Add_Alumni" />
+        <activity android:name=".Admin.Add_Calendar" />
+        <activity android:name=".Admin.Add_Notice" />
+        <activity android:name=".Admin.Admin_Login" />
+        <activity android:name=".Faculty.Home" />
+        <activity android:name=".Faculty.Resume_Faculty" />
+        <activity android:name=".Faculty.Alumni" />
+        <activity android:name=".Faculty.Add_Document" />
+        <activity android:name=".Student.Resume" />
+        <activity android:name=".Common.Profile" />
+        <activity android:name=".Common.Notice" />
+        <activity android:name=".Student.Document" />
+        <activity android:name=".Common.Calendar" />
+        <activity android:name=".Student.Alumni" />
+        <activity
+            android:name=".Student.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Faculty.Faculty_Login" />
+        <activity android:name=".Student.Student_Login" />
+        <activity android:name=".Login.Choice" />
+        <activity android:name=".Login.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

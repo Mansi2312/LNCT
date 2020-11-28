@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgrnd"
+    android:gravity="center"
+    tools:context=".Admin.Add_Notice">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="88dp"
+            android:layout_height="63dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/add">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="55dp"
+            android:text="ADD IMAGE NOTICE"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_margin="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/noticesubmit"
+        android:layout_width="129dp"
+        android:layout_height="67dp"
+        android:background="@drawable/custom_btn"
+        android:text="SUMBIT"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginTop="35dp"
+        android:textSize="18dp">
+
+    </Button>
+
+
+
+
+</LinearLayout>

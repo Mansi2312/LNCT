@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgrnd"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Admin.Add_Alumni">
+
+
+    <ImageView
+        android:layout_width="191dp"
+        android:layout_height="167dp"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/alumni">
+
+    </ImageView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+
+
+        <RadioButton
+            android:id="@+id/radioaddalumni"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD ALUMNI"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:fontFamily="monospace"
+            android:textStyle="bold">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/radioeditalumni"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EDIT"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:fontFamily="monospace"
+            android:textStyle="bold">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/radiodeletealumni"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DELETE"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:fontFamily="monospace"
+            android:textStyle="bold">
+
+        </RadioButton>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="130dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/custom_btn"
+        android:padding="15dp"
+        android:text="Back"
+        android:textSize="18dp"
+        android:textStyle="bold">
+
+    </Button>
+
+
+
+
+</LinearLayout>
